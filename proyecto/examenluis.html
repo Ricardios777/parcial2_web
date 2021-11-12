@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Que tanto sabes de futbol html</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<style>
+		.slider{
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
+
+</head>
+<body style="background-image: url(uefa.jpg)" style="background-position: center">
+	<font color="#dadae4">
+
+     <section  class="container-fluid slider d-flex justify-content-center align-items-center">
+
+	<h1>Champions league</h1><hr><br>
+	</section>
+
+	<form method="GET" action="examen.php">
+
+	<label style="" for="Nombre_a">Nombre del alumno:</label><br>
+		<input type="text" name="Nombre_a" placeholder="Nombre del alumno" required><br><br><br>
+
+		<label style="" for="Apellido_p">Apellido paterno:</label><br>
+		<input type="text" name="Apellido_p" placeholder="Apellido paterno" required><br><br><br>
+		
+		<label style="" for="Apellido_p">Apellido Materno:</label><br>
+		<input type="text" name="Apellido_m" placeholder="Apellido Materno" required><br><br><br>
+
+
+
+
+		 <label for="Pregunta_1">1. Qué es el futbol?</label><br>
+		<input type="text" name="Pregunta_1" placeholder="Que es el futbol" required><br><br><br>
+
+
+		 <label for="Pregunta_2">2. Que seleccion tiene mas copas del mundo?</label><br><br>
+		<font color="#dadae4">a</font> <input class="rad" type="radio" name="Pregunta_2" value="a"><font color="#dadae4"> Brasil</font> <br>
+		<font color="#dadae4">b</font> <input class="rad" type="radio" name="Pregunta_2" value="b"><font color="#dadae4">  Mexico</font><br>
+		<font color="#dadae4">c</font> <input class="rad" type="radio" name="Pregunta_2" value="c"><font color="#dadae4">  Alemania</font><br><br><br>
+		
+		 <label for="Pregunta_3">3. Equipo conocido como merengue:</label><br>
+		<input type="text" name="Pregunta_3" placeholder="Equipo conocido como merengue?" required><br><br><br>
+
+		 <label for="Pregunta_4">4. Cual es el nombre completo de cr7? </label><br>
+		<input type="text" name="Pregunta_4" placeholder="Cual es el nombre completo de cr7?" required><br><br><br>
+
+		 <label for="Pregunta_5">5. Cuantas champiosn tiene el real madrid</label><br>
+		<input class="check" type="checkbox" name="Pregunta_5" value=" 0"><font color="#dadae4">Ninguna</font><br>
+		<input class="check" type="checkbox" name="Pregunta_5" value=" 0"><font color="#dadae4"> 2 champions</font><br>
+		<input class="check"  type="checkbox" name="Pregunta_5" value=" 0"><font color="#dadae4">5 champions</font> <br>
+		<input class="check" type="checkbox" name="Pregunta_5" value=" 1"><font color="#dadae4">14 champions</font><br><br><br>
+
+		 <label for="Pregunta_6">6. ¿Quién es el jugador que más veces vio la tarjeta roja en la historia de LaLiga?</label><br>
+		<font color="#dadae4">a</font> <input class="rad" type="radio" name="Pregunta_6" value="a"><font color="#dadae4"> sergio ramos</font><br>
+		<font color="#dadae4">b</font> <input class="rad" type="radio" name="Pregunta_6" value="b"><font color="#dadae4">Varane</font><br>
+		<font color="#dadae4">c</font> <input class="rad" type="radio" name="Pregunta_6" value="c"><font color="#dadae4">Van dai</font><br><br><br>
+
+		 <label for="Pregunta_7">7. ¿A partir de qué temporada se implantó el VAR?:</label><br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="0 "><font color="#dadae4">2017/2018</font><br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="0 "><font color="#dadae4">2015/2016 </font><br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="0 "><font color="#dadae4">2010/2011</font> <br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="1 "><font color="#dadae4">2018/19</font> <br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="0 "><font color="#dadae4">2021/2022</font><br><br><br>
+
+		 <label for="Pregunta_8">8. ¿Qué equipo ha sumado más puntos a lo largo de las 89 temporadas de LaLiga?:</label><br>
+		<font color="#dadae4">a</font> <input class="rad" type="radio" name="Pregunta_8" value="a"><font color="#dadae4">Barcelona</font><br>
+		<font color="#dadae4">b</font> <input class="rad" type="radio" name="Pregunta_8" value="b"><font color="#dadae4">Atletico de madrid</font><br>
+		<font color="#dadae4">c</font> <input class="rad" type="radio" name="Pregunta_8" value="c"><font color="#dadae4">Real madrid</font><br><br><br>
+
+		 <label for="Pregunta_9">9.¿Quién es el segundo máximo goleador de la historia de LaLiga, por detrás de Messi (438)?</label><br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="0"><font color="#dadae4"></font>Benzema<br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="1"><font color="#dadae4"></font>Cristiano Ronaldo<br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="2"><font color="#dadae4"></font>Griezman<br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="0"><font color="#dadae4"></font>Luis suarez<br><br><br>
+
+		 <label for="Pregunta_10">10.¿Quien gano el ultimo balon de oro?:</label><br>
+		<input type="text" name="Pregunta_10" placeholder="Quien gano el ultimo balon de oro" required><br><br><br>
+
+		
+
+		<input type="submit" value="Enviar" class="btn btn-success" >
+
+</font>
+	</form>
+</body>
+</html>
